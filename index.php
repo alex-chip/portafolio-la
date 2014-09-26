@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=width-device, minimun-scale=1, maximun-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
 	<title>Portafolio.la</title>
 	<link rel="stylesheet" href="static/css/normalize.css">
