@@ -47,14 +47,14 @@
 		<h2 class = "Work-title u-title">Mi Trabajo</h2>
 		<article class = "Work-item">
 			<figure class ="Work-imageContainer">
-				<img src="static/img/proyecto.jpg" alt="Es la descripcion de mi imagen" class ="Work-images" />
-				<figcaption class = "Work-description">Website de Mejorando.la</figcaption>
+				<img src="static/img/youtube-search.jpg" alt="Es la descripcion de mi imagen" class ="Work-images" />
+				<figcaption class = "Work-description"><a href="http://youtube-search-puls.herokuapp.com/">Youtube Search</a></figcaption>
 			</figure>
 		</article>
 		<article class = "Work-item">
 			<figure class ="Work-imageContainer">
-				<img src="static/img/youtube-search.png" alt="Es la descripcion de mi imagen" class ="Work-images" />
-				<figcaption class = "Work-description">Youtube Search</figcaption>
+				<img src="static/img/proyecto.jpg" alt="Es la descripcion de mi imagen" class ="Work-images" />
+				<figcaption class = "Work-description">Website de Mejorando.la</figcaption>
 			</figure>
 		</article>
 		<article class = "Work-item">
