@@ -53,8 +53,8 @@
 		</article>
 		<article class = "Work-item">
 			<figure class ="Work-imageContainer">
-				<img src="static/img/proyecto.jpg" alt="Es la descripcion de mi imagen" class ="Work-images" />
-				<figcaption class = "Work-description">Website de Mejorando.la</figcaption>
+				<img src="static/img/youtube-search.png" alt="Es la descripcion de mi imagen" class ="Work-images" />
+				<figcaption class = "Work-description">Youtube Search</figcaption>
 			</figure>
 		</article>
 		<article class = "Work-item">
