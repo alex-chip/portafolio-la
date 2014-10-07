@@ -165,6 +165,7 @@
 
 }
 
+
 .Work-imageContainer
 {
 	margin:0;
@@ -175,6 +176,11 @@
 	font-size:1.1em;
 	color:#515151;
 	font-style: italic;
+}
+
+.Work-link
+{
+	text-decoration: none;
 }
 
 .Footer
