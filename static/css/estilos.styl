@@ -1,41 +1,8 @@
-@font-face
-  font-family 'icomoon'
-  src url('../fonts/icomoon.eot?d28syh')
-  font-weight normal
-  font-style normal
-
-[class^="icon-"], [class*=" icon-"]
-  font-family 'icomoon'
-  speak none
-  font-style normal
-  font-weight normal
-  font-variant normal
-  text-transform none
-  line-height 1
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-
-.icon-facebook
-  &:before
-    content "\e600"
-    color rgb(28, 85, 207)
-    margin-right 0.3em
-
-.icon-twitter
-  &:before
-    content "\e601"
-    color rgb(41, 117, 201)
-    margin-right 0.3em
-
-.icon-github
-  &:before
-    content "\e602"
-    color grey
-    margin-right 0.3em
+@import 'icons.css'
 
 .u-title
-  color #00CCFF
-  border-bottom 2px dashed #00CCFF
+  color #0cf
+  border-bottom 2px dashed #0cf
   font-size 1.5em
   font-weight normal
   padding-bottom 0.5em
@@ -46,7 +13,7 @@
   margin 0 auto
 
 .MainMenu
-  background #1E1E1E
+  background #1e1e1e
   text-align center
   font-size 16px
   height 3.75em
@@ -63,14 +30,14 @@
   display inline-block
 
 .MainMenu-link
-  color #00DBFF
+  color #00dbff
   text-decoration none
   line-height 3.75em
   margin-right 1.5em
 
 .Header
   margin-top 3.75em
-  background-image url('../img/portada.jpg')
+  background-image url("../img/portada.jpg")
   background-repeat no-repeat
   background-position center
   background-size cover
@@ -80,12 +47,12 @@
     margin 0
 
 .Header-image
-  border 5px solid white
+  border 5px solid #fff
   border-radius 50%
 
 .Header-name,
 .Header-link
-  color white
+  color #fff
 
 .Header-link
   font-size 2.2em
@@ -102,28 +69,29 @@
   padding 0 1em
 
 .Profile-link
-  background orange
-  color white
+  background #ffa500
+  color #fff
   text-decoration none
-  padding .5em 1em
+  padding 0.5em 1em
   border-radius 2em
-  margin-right .5em
+  margin-right 0.5em
   display inline-block
   margin-bottom 1em
   &.twitter
-    background #55ACEE
+    background #55acee
   &.facebook
-    background #4862A3
+    background #4862a3
   &.github
-    background #829AA8
+    background #829aa8
 
 .Work
   margin-top 2em
   text-align center
-  &-container
-    display flex
-    flex-wrap wrap
-    justify-content space-around
+
+.Work-container
+  display flex
+  flex-wrap wrap
+  justify-content space-around
 
 .Work-item
   display inline-block
@@ -141,7 +109,7 @@
   text-decoration none
 
 .Footer
-  background-image url('../img/footer.jpg')
+  background-image url("../img/footer.jpg")
   background-repeat no-repeat
   background-position center
   background-size cover
@@ -159,15 +127,15 @@
   vertical-align top
 
 .Footer-title
-  color white
+  color #fff
 
 .Footer-formInput,
 .Footer-textarea
-  background white
+  background #fff
   border none
   display block
   border-radius 2em
-  padding .5em
+  padding 0.5em
   margin 0 auto 1em
   outline 0
 
@@ -175,23 +143,33 @@
   resize none
 
 .Footer-button
-  background orange
-  color white
+  background #ffa500
+  color #fff
   border-radius 1em
   border none
-  padding .5em 1em
+  padding 0.5em 1em
 
-@media screen and (max-width: 480px)
-  .Profile
-    &-link
-      display block
-      
-@media screen and (max-width: 767px)
-  .Footer
-    &-form
-      display block
-    &-formInput,
-    &-textarea
-      width 90%
-      box-sizing border-box
-      
+@media
+  screen
+    and
+      (max-width
+        &:
+          480px)
+            .Profile-link {
+    display block
+
+}
+  @media
+    screen
+      and
+        (max-width
+          &:
+            767px)
+              .Footer-form {
+    display block
+
+.Footer-formInput,
+  .Footer-textarea
+  width 90%
+  box-sizing border-box
+
